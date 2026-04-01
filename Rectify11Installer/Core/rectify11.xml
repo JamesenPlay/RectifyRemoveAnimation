@@ -84,7 +84,7 @@
 	<Patch Mui="remotepg.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\remotepg.dll.mun" />
 	<Patch Mui="sensorscpl.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\sensorscpl.dll.mun" />
 	<Patch Mui="sethc.exe.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\sethc.exe.mun" />
-	<Patch Mui="shell32.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\shell32.dll.mun" />
+	<Patch Mui="shell32.dll.mun" mask="ICONGROUP,|UIFILE," HardlinkTarget="%sysresdir%\shell32.dll.mun" />
 	<Patch Mui="shrpubw.exe.mun" mask="ICONGROUP,|BITMAP," HardlinkTarget="%sysresdir%\shrpubw.exe.mun" />
 	<Patch Mui="sndvolsso.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\sndvolsso.dll.mun" />
 	<Patch Mui="sppcomapi.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\sppcomapi.dll.mun" />
