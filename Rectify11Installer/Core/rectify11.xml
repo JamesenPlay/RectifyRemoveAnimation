@@ -32,7 +32,7 @@
 	<Patch Mui="dsuiext.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\dsuiext.dll.mun" />
 	<Patch Mui="easeofaccessdialog.exe.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\easeofaccessdialog.exe.mun" />
 	<Patch Mui="edputil.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\edputil.dll.mun" />
-	<Patch Mui="explorerframe.dll.mun" mask="ICONGROUP,|BITMAP,|IMAGE,|CURSORGROUP," HardlinkTarget="%sysresdir%\explorerframe.dll.mun" />
+	<Patch Mui="explorerframe.dll.mun" mask="ICONGROUP,|BITMAP,|IMAGE,|CURSORGROUP,|UIFILE," HardlinkTarget="%sysresdir%\explorerframe.dll.mun" Ignore="|UIFILE," MinVersion="21996" />
 	<Patch Mui="filemgmt.dll.mun" mask="ICONGROUP,|BITMAP," HardlinkTarget="%sysresdir%\filemgmt.dll.mun" />
 	<Patch Mui="firewallcontrolpanel.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\firewallcontrolpanel.dll.mun" />
 	<Patch Mui="gpedit.dll.mun" mask="ICONGROUP,|BITMAP," HardlinkTarget="%sysresdir%\gpedit.dll.mun" />
@@ -84,7 +84,7 @@
 	<Patch Mui="remotepg.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\remotepg.dll.mun" />
 	<Patch Mui="sensorscpl.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\sensorscpl.dll.mun" />
 	<Patch Mui="sethc.exe.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\sethc.exe.mun" />
-	<Patch Mui="shell32.dll.mun" mask="ICONGROUP,|UIFILE," HardlinkTarget="%sysresdir%\shell32.dll.mun" />
+	<Patch Mui="shell32.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\shell32.dll.mun" />
 	<Patch Mui="shrpubw.exe.mun" mask="ICONGROUP,|BITMAP," HardlinkTarget="%sysresdir%\shrpubw.exe.mun" />
 	<Patch Mui="sndvolsso.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\sndvolsso.dll.mun" />
 	<Patch Mui="sppcomapi.dll.mun" mask="ICONGROUP," HardlinkTarget="%sysresdir%\sppcomapi.dll.mun" />
